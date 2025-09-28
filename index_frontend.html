@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV Bar Graph</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>Upload CSV and Generate Bar Graph</h1>
+
+<form id="uploadForm">
+  <label for="myfile">Input CSV file:</label>
+  <input type="file" id="myfile" name="myfile" accept=".csv" required><br><br>
+  <button type="submit">Upload</button>
+</form>
+
+<div id="errorMessage" style="color: red; font-weight: bold;"></div>
+<div id="loadingMessage" style="color: blue; font-weight: bold; display: none;">Processing...</div>
+<div id="successMessage" style="color: green; font-weight: bold;"></div>
+
+<canvas id="barChart" width="400" height="200"></canvas>
+
+<script>
+  const form = document.getElementById('uploadForm');
+  const ctx = document.getElementById('barChart').getContext('2d');
+  const errorMessage = document.getElementById('errorMessage');
+  const loadingMessage = document.getElementById('loadingMessage');
+  const successMessage = document.getElementById('successMessage');
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    errorMessage.textContent = '';
+    successMessage.textContent = '';
+    loadingMessage.style.display = 'block';
+
+    const fileInput = document.getElementById('myfile');
+    const file = fileInput.files[0];
+
+    if (!file) {
+      alert('Please select a file!');
+      loadingMessage.style.display = 'none';
+      return;
+    }
+
+    if (!file.name.endsWith('.csv')) {
+      errorMessage.textContent = 'Please upload a valid CSV file.';
+      loadingMessage.style.display = 'none';
+      return;
+    }
+
+    if (file.size > 5 * 1024 * 1024) {
+      errorMessage.textContent = 'File size exceeds the 5MB limit.';
+      loadingMessage.style.display = 'none';
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append('myfile', file);
+
+    try {
+      const response = await fetch('http://localhost:5000/upload', {
+        method: 'POST',
+        body: formData
+      });
+
+      const result = await response.json();
+      loadingMessage.style.display = 'none';
+
+      if (response.ok) {
+        successMessage.textContent = 'Graph generated successfully!';
+        const data = result.data;
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: data.labels,
+            datasets: [{
+              label: 'Projects',
+              data: data.values,
+              backgroundColor: 'rgba(75, 192, 192, 0.2)',
+              borderColor: 'rgba(75, 192, 192, 1)',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: 'Labels (Projects)' // Title for the x-axis
+                }
+              },
+              y: {
+                title: {
+                  display: true,
+                  text: 'Time Spent (Minutes)' // Title for the y-axis
+                },
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      } else {
+        errorMessage.textContent = result.error || 'Failed to process the file.';
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      loadingMessage.style.display = 'none';
+      errorMessage.textContent = 'An error occurred while uploading the file.';
+    }
+  });
+</script>
+
+</body>
+</html>
+
