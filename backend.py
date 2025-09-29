@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS  # Import Flask-CORS
 import pandas as pd
 import os
+import math  # Add this at the top of your file
 
 app = Flask(__name__, static_folder='static')
 CORS(app)  # Enable CORS for all routes
@@ -46,9 +47,9 @@ def upload_file():
         grouped_data = df.groupby('Labels')['Time Spent'].sum().reset_index()
         print("Data grouped successfully")
 
-        # Convert time spent from seconds to minutes
-        grouped_data['Time Spent'] = grouped_data['Time Spent'] / 60
-        print("Time converted to minutes")
+        # Convert time spent from seconds to hours and round up to the nearest hour
+        grouped_data['Time Spent'] = (grouped_data['Time Spent'] / 360).apply(math.ceil)
+        print("Time converted to Hours (rounded up to the nearest hour)")
 
         # Prepare data for the bar graph
         data = {
