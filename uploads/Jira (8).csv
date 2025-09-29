@@ -1,0 +1,476 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Affects versions,Fix versions,Fix versions,Components,Components,Due date,Votes,Labels,Description,Environment,Watchers,Watchers,Watchers,Watchers,Watchers Id,Watchers Id,Watchers Id,Watchers Id,Log Work,Log Work,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Cloners),Inward issue link (Defect),Outward issue link (Defect),Inward issue link (Duplicate),Inward issue link (Link Generic),Outward issue link (Link Generic),Inward issue link (Tests),Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Custom field (8D Status),Custom field (8D summary status),Custom field (Affected services),Custom field (Approvals),Custom field (Assignee Team),Custom field (Atlassian project),Custom field (Atlassian project status),Custom field (Baseline start date),Custom field (Begin Date),Custom field (Category),Custom field (Category),Custom field (Change Order #),Custom field (Change completion date),Custom field (Change reason),Custom field (Change risk),Custom field (Change start date),Custom field (Change type),Custom field (Comments),Custom field (Complexity),Custom field (Confidence),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Designs ready),Custom field (Development),Custom field (Documents),Custom field (ECO #:),Custom field (Effort),Custom field (End Date),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (External Issues List),Custom field (External Issues List Item Number),Custom field (FCO #:),Custom field (Focus Areas),Custom field (Goals),Custom field (How many?),Custom field (How?),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Idea short description),Custom field (Impact),Custom field (Impact),Custom field (Impact score),Custom field (Insights),Custom field (Issue color),Custom field (Linked issues),Custom field (Locked forms),Custom field (Open forms),Custom field (Original CAR #),Custom field (PO Number),Custom field (Planned End),Custom field (Planned Start),Custom field (Progress),Custom field (Project overview key),Custom field (Project overview status),Custom field (Project start),Custom field (Project target),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Rank (Obsolete) (migrated)),Custom field (Release Notes),Custom field (Release Notes Not Required),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Requestor),Custom field (Revision),Custom field (Roadmap),Satisfaction rating,Custom field (Satisfaction date),Custom field (Sentiment),Custom field (Spec ready),Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (System Type),Custom field (System Type),Custom field (System Type),Custom field (Target S/W Fix Version),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Testplan Recompile),Custom field (Testplan Relink),Custom field (Total forms),Custom field (User Documentation),Custom field (Value),Custom field (Vulnerability),Custom field (What?),Custom field (When?),Custom field (Where?),Custom field (Who?),Custom field (Why?),Custom field (Work category),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Parent,Parent key,Parent summary,Status Category,Status Category Changed
+setVIDataCapture does repeat with the settime function ,ABTS-7384,24403,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,19/Sep/25 5:24 PM,24/Sep/25 5:09 PM,28/Sep/25 11:21 AM,23/Sep/25 6:13 PM,,,,,,,0,104-Niobium,"setVIDataCapture does repeat with the settime function, with the v-pattern.",,Aavan Mehernosh Vadiwala,,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,,,,;24/Sep/25 5:09 PM;6f62a154-8f1b-4884-83a5-c9be189da512;1800,,,0,1800,,,0,1800,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@76311d2c,,,,20/Sep/25 12:00 AM,,,,,19/Sep/25 5:24 PM,,,19/Sep/25 5:24 PM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,20/Sep/25 12:00 AM,,,,,,0|i00o0r:,,,,,,,,,,,,,,,,,,,FOX-XP,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_250560188_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,23999,ABTS-7274,Minor Enhancements & Bug Fixes in v5.5.3,Done,22/Sep/25 3:00 PM
+Test solution for FC_NONE,ABTS-7383,24385,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,18/Sep/25 10:27 AM,24/Sep/25 5:09 PM,24/Sep/25 5:09 PM,23/Sep/25 6:13 PM,,,,,,,0,104-Niobium,"Use {{FC_DATA_COLLECT_RL}} to confirm that data can be collected 
+
+Use {{FC_NONE}} and confirm that no data file is made, and collected 
+
+",,Aavan Mehernosh Vadiwala,,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,,,,;24/Sep/25 5:09 PM;6f62a154-8f1b-4884-83a5-c9be189da512;1800,,,0,1800,,,0,1800,Internal,,,,,ABTS-6946,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2253372a,,,,18/Sep/25 12:00 AM,,,,,18/Sep/25 10:27 AM,,,18/Sep/25 10:27 AM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,18/Sep/25 12:00 AM,,,,,,0|i00nwr:,,,,,,,,,,,,,,,,,,,FOX-XP,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_109077878_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,23999,ABTS-7274,Minor Enhancements & Bug Fixes in v5.5.3,Done,19/Sep/25 4:45 PM
+Update UCCM & UCNCM Min/Max Settings in the CSV files and in Confluence Page,ABTS-7363,24267,Bug,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,03/Sep/25 10:59 AM,24/Sep/25 5:20 PM,24/Sep/25 5:10 PM,23/Sep/25 6:10 PM,,,,,,05/Sep/25 12:00 AM,0,105-ITC,"https://aehr.atlassian.net/wiki/spaces/FOX1NG/pages/1785561152/FOX-XP+FOX-NP+FOX-CP+Cross-Reference+between+Different+Configuration+Files  
+
+Above confluence link and associated SW mis-states: 
+
+UCCM as being 0 to 4V where it should be 0 to 5V. 
+
+UCNCM as being -1 to 3V where it should be -1 to 4V.
+
+I have changed the voltage max for UCCM and UCNCM in the Confluence page [https://aehr.atlassian.net/wiki/spaces/FOX1NG/pages/1785561152/FOX-XP+FOX-NP+FOX-CP+Cross-Reference+between+Different+Configuration+Files|https://aehr.atlassian.net/wiki/spaces/FOX1NG/pages/1785561152/FOX-XP+FOX-NP+FOX-CP+Cross-Reference+between+Different+Configuration+Files|smart-link] 
+
+[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] Update all the {{ABTS_HW_DPB_300_*_B.csv}}
+
+ABTS_HW_DPB_300-30015-01_B.csv
+ABTS_HW_DPB_300-30015-10_B.csv
+ABTS_HW_DPB_300-30015-20_B.csv
+ABTS_HW_DPB_300-31107-01_B.csv
+ABTS_HW_DPB_300-31174-01_B.csv
+ABTS_HW_DPB_300-31174-20_B.csv
+ABTS_HW_DPB_300-32234-10_B.csv
+ABTS_HW_DPB_300-34639-01_B.csv
+ABTS_HW_DPB_300-60362-01_B.csv
+ABTS_HW_DPB_300-60386-01_B.csv
+ABTS_HW_DPB_300-60392-01_B.csv
+ABTS_HW_DPB_300-60397-01_B.csv
+ABTS_HW_DPB_300-60397-11_B.csv
+ABTS_HW_DPB_300-60432-01_B.csv
+ABTS_HW_DPB_300-60511-01_B.csv
+ABTS_HW_DPB_300-60511-10_B.csv
+ABTS_HW_DPB_300-60511-20_B.csv
+
+ in *../abts_config_csv/AbtsConfig* folder as follows:
+
+{{BEGIN,DPB_Capability,,,, }}
+{{nDPB_PS_Capability_Index,dMinVolt,dMaxVolt,dMaxCurrent,dMaxDissipation, }}
+{{1,0.0,5.0,.30,0.2, }}
+{{2,-16.0,36.0,.05,0.2, }}
+{{3,0.0,3.3,4.0,0.2, }}
+{{4,3.0,29.0,1.0,0.2, }}
+{{5,-1.0,4.0,.30,0.2, }}
+{{6,-30.0,40.0,0.05,0.2, }}
+{{7,-200.0,2000.0,0.25,0.2, }}
+{{8,5,50.0,4.4,0.2, }}
+{{9,10,100.0,4.4,0.2, }}
+{{10,15,150.0,4.4,0.2, }}
+{{11,20,200.0,4.4,0.2, }}
+{{12,0.0,4.0,5.0,0.2, }}
+{{END,,,,,}}
+",,Hien Thanh Ho,Thomas Trexler,,,5ac7ec1b1b5dd37ea53a1405,60cfc06a624d700069670e09,,,;24/Sep/25 5:20 PM;6f62a154-8f1b-4884-83a5-c9be189da512;7200,,,0,7200,,,0,7200,Internal,,,CAR-490,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@4a7b6df6,,,,24/Jul/25 12:00 AM,,,,,24/Jul/25 1:24 PM,,,24/Jul/25 1:24 PM,,,,,,,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2025-09-03T15:37:43.906-0700"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,All,Confluence,,,,,,,,,,,,car-490,,,24/Jul/25 12:00 AM,,,,,,0|i00nf7:,,,"The configuration files were updated to correct voltage range errors: UCCM is now properly set to 0–5V (previously 0–4V), and UCNCM to -1–4V (previously -1–3V).",,,,,TomT,,,,,,,,,,,FOX-CP,FOX-NP,FOX-XP,,,,,Required,Required,,,,,SW specs are wrong,Now,"Confluence, FOX SW",All,Beats me ;-),,,1_*:*_1_*:*_16660297_*|*_5_*:*_1_*:*_1737141769_*|*_6_*:*_1_*:*_0_*|*_10000_*:*_1_*:*_64318,"03/Sep/25 2:19 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] I reviewed all the {{ABTS_HW_DPB_300_*_B.csv}} and found that {{ABTS_HW_DPB_300-60392-01_B.csv, ABTS_HW_DPB_300-60397-01_B.csv}}
+{{and ABTS_HW_DPB_300-60362-01_B.csv}} have the incorrect {{p_nDPB_PS_Capability_Index.}} *It should be 1 instead of 2.*
+
+See me before you work on this change.",,,,,,,,,,,,,,,,,,,,,,23999,ABTS-7274,Minor Enhancements & Bug Fixes in v5.5.3,Done,03/Sep/25 3:37 PM
+abts_prober application crashed when changing the prober type in the sys config file to TSK,ABTS-7340,24105,Bug,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,16/Aug/25 3:22 PM,28/Sep/25 11:28 AM,28/Sep/25 11:27 AM,23/Sep/25 6:11 PM,,5.5.2,,abts_prober,,18/Aug/25 12:00 AM,0,102-WLBI_SW_Support,"Investigate why changing the prober type in the sys config file to TSK or ACCRETECH, abts_prober crashes at startup.  See attached bitmap.",,Aavan Mehernosh Vadiwala,Hien Thanh Ho,Matthew Teh,Tom Bong,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,5ac7ec1b1b5dd37ea53a1405,712020:6c0301fa-6811-491c-aec0-2b81459d98c5,60cfc0728f2cc100698d2559,;26/Sep/25 10:37 AM;6f62a154-8f1b-4884-83a5-c9be189da512;86400,,,0,86400,,,0,86400,Internal,,,,,,,,,,19/Aug/25 11:34 AM;6f62a154-8f1b-4884-83a5-c9be189da512;IMG_1325.jpeg;https://aehr.atlassian.net/rest/api/3/attachment/content/22396,16/Aug/25 3:23 PM;ug:392b7f02-1809-4fc8-aa7a-59fcd2b62fcf;image-20250816-222301.png;https://aehr.atlassian.net/rest/api/3/attachment/content/22363,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@63aaac97,,,,16/Aug/25 12:00 AM,,,,,16/Aug/25 3:22 PM,,,16/Aug/25 3:22 PM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,16/Aug/25 12:00 AM,,,,,,0|i00mxn:,,,,Not Required,,,,,,,,,,,,,,,FOX-CP,,,,,,,,,,,,,,,,,,,2025-08-16 22:57:44.984,1_*:*_1_*:*_171991286_*|*_4_*:*_1_*:*_8246441_*|*_5_*:*_1_*:*_2117_*|*_6_*:*_2_*:*_73631614,"16/Aug/25 3:23 PM;5ac7ec1b1b5dd37ea53a1405;!image-20250816-222301.png|width=895,height=117,alt=""image-20250816-222301.png""!
+
+[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde]  abts_prober because of segmentation fault (exit with signal 11)",16/Aug/25 3:57 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5ac7ec1b1b5dd37ea53a1405] how can I recreate this  ?,"16/Aug/25 4:32 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] Could you work with [~accountid:712020:6c0301fa-6811-491c-aec0-2b81459d98c5]  to reproduce the issue on abtsenglc02 since we don’t have a real prober to test. Run with the *OPISim* and *abts_prober_sim* applications and follow the instructions in [How to run a testplan in auto mode under simulator mode - Fox1-NG - Confluence|https://aehr.atlassian.net/wiki/spaces/FOX1NG/pages/1816985693/How+to+run+a+testplan+in+auto+mode+under+simulator+mode]
+
+*abts_prober_sim* should be the one that you changed.","19/Aug/25 11:34 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;!IMG_1325.jpeg|thumbnail!
+
+[~accountid:5f59545ac4fbeb0069993516] and [~accountid:712020:d9f6e2d2-4e57-493a-9da6-18e6bbcb9b0a] were able to recreate error",19/Aug/25 11:36 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] the abts_prober_sim is pulled from the master ,,,,,,,,,,,,,,,,,,18768,ABTS-6649,Accretech Prober Support (FOX-CP),Done,19/Aug/25 1:53 PM
+Get Prober Type from SysConfig,ABTS-7333,24076,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,13/Aug/25 12:28 PM,24/Sep/25 5:08 PM,24/Sep/25 5:04 PM,23/Sep/25 6:13 PM,,,,,,,0,101-WLBI_HW_Sustaining,"Testing getProbertype, and the SysConfigFile flag
+- System Configuration File with prober type, OPUS
+- System Configuration File with prober type, TSK
+- System Configuration File with no prober type
+- System Configuration File that does not exist
+- Default 
+- -s and -t flags  ",,,,,,,,,,;24/Sep/25 5:08 PM;6f62a154-8f1b-4884-83a5-c9be189da512;7200,,,0,7200,,,0,7200,Internal,,,,,ABTS-7267,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@3235c81f,,,,13/Aug/25 12:00 AM,,,,,13/Aug/25 12:28 PM,,,13/Aug/25 12:28 PM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,13/Aug/25 12:00 AM,,,,,,0|i00msb:,,,,,,,,,,,,,,,,,,,FOX-XP,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_165472235_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,,,,Done,15/Aug/25 10:26 AM
+Get Prober Type from SysConfig,ABTS-7267,23958,Task,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,07/Aug/25 12:07 PM,26/Sep/25 10:33 AM,26/Sep/25 10:32 AM,22/Sep/25 4:35 PM,,5.5.2,,abts_prober,,13/Aug/25 12:00 AM,0,107-ISCB,"Implement a function that gets the prober type directly from the SysConfig, and assigns information accordingly.
+
+
+
+Subtasks to complete
+
+# Implement a SysConfig Option, that will allow users to specify a path to there sysConfig file. 
+## optional, If not the default path is “/home/abts/ABTS_BASE/SysConfigFile/SysConfigFile.xml""
+# Create the function getProbertype(); 
+# Fix the Makefile use the SysConfig Libraries 
+# Test ",,,,,,,,,,;26/Sep/25 10:33 AM;6f62a154-8f1b-4884-83a5-c9be189da512;201600,,144000,0,201600,140%,144000,0,201600,Internal,,ABTS-7334,,ABTS-7333,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@284f1c7d,,,,07/Aug/25 12:00 AM,,,,,07/Aug/25 12:07 PM,,,07/Aug/25 12:07 PM,,,,,,,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=2}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":2,""lastUpdated"":""2025-08-15T17:09:06.820-0700"",""stateCount"":2,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":2,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,07/Aug/25 12:00 AM,,,,,,0|i00mcb:,,,"In the SystemOptions section of the system configuration file, set the Prober Type to either OPUS or ACCRETECH, depending on the specific prober system in use.",,,,,,,,,,,,,,,,FOX-CP,,,,,,,,,,"For example:
+1) If it is an OPUS prober system used with the FOX-CP, the SystemOptions will be:
+	<SystemOptions>
+		<strOptionName>ProberType</strOptionName>
+		<strOptionValue>OPUS</strOptionValue>
+	</SystemOptions>
+
+2) If it is an ACCRETECH prober system used with the FOX-CP, the SystemOptions will be:
+	<SystemOptions>
+		<strOptionName>ProberType</strOptionName>
+		<strOptionValue>ACCRETECH</strOptionValue>
+	</SystemOptions>",,,,,,,,,,1_*:*_1_*:*_348807031_*|*_3_*:*_1_*:*_336395390_*|*_5_*:*_2_*:*_3304563797_*|*_6_*:*_1_*:*_4603,,,,,,,,,,,,,,,,,,,,,,,18768,ABTS-6649,Accretech Prober Support (FOX-CP),Done,15/Aug/25 10:27 AM
+Unable to create EOR due to Segmentation fault,ABTS-7254,23859,Task,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,30/Jul/25 12:33 PM,26/Sep/25 10:32 AM,26/Sep/25 10:26 AM,22/Sep/25 4:36 PM,,5.5.2,,,,,0,107-ISCB,"Excerpt from tp_exec_09.log in *~/testplans_op/Logs/chromium_UnableToCreateEOR* folder
+
+07-29T17:32:59.956970-07:00 FOX2 TP_EXEC_09: CAppServerIf::get_temperature() - AppServer Return Value  = 78.300003 
+2025-07-29T17:32:59.957113-07:00 FOX2 TP_EXEC_09: Board timed out waiting for temperature 84 to be reached, current temp. is 78, aborting Run 3808, Slot 9, TP = CR51300_BI_22A_84C_v1e_24hrs 
+2025-07-29T17:32:59.957247-07:00 FOX2 TP_EXEC_09: ALARM:  slot 9, code 370026, level 1, message: Board timed out waiting for temperature 84 to be reached, current temp. is 78, aborting Run 3808, Slot 9, TP = CR51300_BI_22A_84C_v1e_24hrs 
+2025-07-29T17:32:59.957382-07:00 FOX2 TP_EXEC_09: sendAlarm: Sending alarm 
+2025-07-29T17:32:59.957516-07:00 FOX2 TP_EXEC_09: sendAlarm: Alarm sent successfully 
+2025-07-29T17:32:59.957654-07:00 FOX2 TP_EXEC_09: sendAlarm: *Setting Slot 9 to TPE_SLOT_FAULTED.* 
+2025-07-29T17:32:59.957788-07:00 FOX2 TP_EXEC_09: sendAlarm: Updated TPE slot status = TPE_SLOT_FAULTED, DCStatus = TPE_DC_FAULTED 
+2025-07-29T17:32:59.957922-07:00 FOX2 TP_EXEC_09: send_alarm: Added to error reports: Board timed out waiting for temperature 84 to be reached, current temp. is 78, aborting Run 3808, Slot 9, TP = CR51300_BI_22A_84C_v1e_24hrs 
+2025-07-29T17:32:59.958057-07:00 FOX2 TP_EXEC_09: *runPlanOnce: Step: 829841219,* Seq 56 - EXIT_END_RUN 
+2025-07-29T17:32:59.958188-07:00 FOX2 TP_EXEC_09: signalHandlerDuringRun - Received signal: 11( SIGSEGV - Segmentation violation ) 
+2025-07-29T17:32:59.958320-07:00 FOX2 TP_EXEC_09: signalHandlerDuringRun - before calling catch_interrupt 
+2025-07-29T17:32:59.958455-07:00 FOX2 TP_EXEC_09: catch_interrupt - Run 3808, Slot 9, TP = CR51300_BI_22A_84C_v1e_24hrs - Received signal: 11( SIGSEGV - Segmentation violation ) 
+2025-07-29T17:32:59.958586-07:00 FOX2 TP_EXEC_09: ALARM:  slot 9, code 370067, level 0, message: Run 3808, Slot 9, TP = CR51300_BI_22A_84C_v1e_24hrs - Received signal: 11( SIGSEGV - Segmentation violation )
+",,Aavan Mehernosh Vadiwala,Azar Hanna,Hien Thanh Ho,William Chen,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,60cfbfc8d5dde8007168392d,5ac7ec1b1b5dd37ea53a1405,5f59545a0cef2d007dcddcc8,;26/Sep/25 10:31 AM;6f62a154-8f1b-4884-83a5-c9be189da512;57600,;26/Sep/25 10:32 AM;6f62a154-8f1b-4884-83a5-c9be189da512;288000,,0,345600,,,0,345600,Internal,,,,,,CAR-494,,,,04/Aug/25 4:40 PM;ug:104983ff-785e-4499-a1bc-997311be8aed;image-20250804-233742.png;https://aehr.atlassian.net/rest/api/3/attachment/content/22122,05/Aug/25 10:41 AM;6f62a154-8f1b-4884-83a5-c9be189da512;tp_exec_01_recreated_error.log;https://aehr.atlassian.net/rest/api/3/attachment/content/22134,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@4dee48d0,,,,30/Jul/25 12:00 AM,,,,,30/Jul/25 12:33 PM,,,30/Jul/25 12:33 PM,,,,,,,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2025-08-06T15:00:39.800-0700"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,30/Jul/25 12:00 AM,,,,,,0|i00m2r:,,,A fix has been applied to address the failure in End of Run Report creation when encountering a faulted slot.,,,,,,,,,,,,,,,,FOX-NP,FOX-XP,,,,,,,,,,,,,,,,,,2025-07-30 20:38:26.026,1_*:*_1_*:*_161912602_*|*_3_*:*_1_*:*_866384145_*|*_5_*:*_1_*:*_0,"30/Jul/25 1:38 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;2025-07-29T17:32:59.958057-07:00 FOX2 TP_EXEC_09: runPlanOnce: Step: 829841219, Seq 56 - EXIT_END_RUN, 
+- abts_pc_run_plan.C, Line 10356",31/Jul/25 12:26 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;Currently trying to replicate error to narrow down the problem ,31/Jul/25 3:34 PM;5f59545a0cef2d007dcddcc8;Do we have the test plan?,"31/Jul/25 4:01 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:60cfbfc8d5dde8007168392d] Could you provide us with the testplan, DCCF and System Config file?","31/Jul/25 4:10 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] [~accountid:5f59545a0cef2d007dcddcc8] You can also use any testplan, add setRunForCount( unsigned int unStartStep, unsigned int unEndStep, unsigned int unRepeatCount, e_StepsLoopBreakType eSLBT)
+
+ex: setRunForCount(1, 1, 20, RGS_NONE); 
+
+then change abts_pc_run_plan.C to hardcode it to set TPE slot status = TPE_SLOT_FAULTED, DCStatus = TPE_DC_FAULTED then run the testplan on a simulator to reproduce the segmentation fault.",01/Aug/25 12:10 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5ac7ec1b1b5dd37ea53a1405] Would I put it on the {{tp_setup}} function of the testplan? ,"04/Aug/25 11:49 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;“ Board timed out waiting for temperature 84 to be reached, current temp. is 78, aborting Run 3808, Slot 9, TP = CR51300_BI_22A_84C_v1e_24hrs” abts_pc_run_plan 9031",04/Aug/25 3:12 PM;5f59545a0cef2d007dcddcc8;No rDebug logs in testplans_op/Logs/chromium_UnableToCreateEOR/tp_exec_09.log,04/Aug/25 3:22 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;abts_pc_run_plan.C (8282 - 9034),"04/Aug/25 4:40 PM;60cfbfc8d5dde8007168392d;[~accountid:5ac7ec1b1b5dd37ea53a1405] 
+
+*_the Test plans is in:_*
+
+!image-20250804-233742.png|width=100%,alt=""image-20250804-233742.png""!
+
+*_The test plan is in:_*
+
+*_testplans_op/foxn/Apps/FOX_XP/Chromium/CR51300_22A_BI_v1d_EVAL_*","04/Aug/25 5:21 PM;5f59545a0cef2d007dcddcc8;Found the error that is related to the Segmentation violation.
+
+The alarm text “Board timed out waiting for temperature 84 to be reached, current temp. is 78, aborting Run 3808, Slot 9, TP = CR51300_BI_22A_84C_v1e_24hrs” has 139 characters, but the char buffer cTempTimes has only 128, “char cTempTime[128]”.
+
+abts_pc_run_plan.C Line 9031:
+
+{noformat}								sprintf( cTempTime, ""Board timed out waiting for temperature %i to be reached, current temp. is %i, aborting Run %u, Slot %u, TP = %s"",
+										 ( int )pRunPlan->getTemperature(), m_nCurrentTemperature, m_unRunNumber, m_unSlotNum, m_strTestplanName.c_str());{noformat}
+
+We need to review all instances of using “char cTempTime[128]”.
+
+The cTempTime buffer is mainly used to form a time string. So, a 128 buffer size is reasonable.
+
+We should declare another local variable with a buffer size of 256 for the alarm text, and use snprintf to prevent buffer overflow. ",04/Aug/25 5:48 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5f59545a0cef2d007dcddcc8] The “char cTempTime[128]” came from base_run_plan.h :258,"04/Aug/25 6:02 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5f59545a0cef2d007dcddcc8] should we change all instances of cTempTime ? If so to what, since {{Board timed out waiting for temperature %i to be reached, current temp. is %i, aborting Run %u, Slot %u, TP = %s""}} , the max char limit it can go to is 211, so should we change it to [256]?","05/Aug/25 10:41 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[^tp_exec_01_recreated_error.log]
+
+","05/Aug/25 10:43 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] {{2025-08-05T10:19:43.780338-07:00 abtsenglc01 TP_EXEC_01: runPlanOnce: Step: 844511300, Seq 1 - EXIT_END_RUN}}",05/Aug/25 11:18 AM;5ac7ec1b1b5dd37ea53a1405;[~accountid:5f59545a0cef2d007dcddcc8] could we change it to a string?,"05/Aug/25 11:54 AM;5f59545a0cef2d007dcddcc8;[~accountid:5ac7ec1b1b5dd37ea53a1405] , Since we are using sprintf, using a larger buffer size and using snprintf to prevent buffer overflow is easier.","05/Aug/25 12:27 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5f59545a0cef2d007dcddcc8] {{snprintf( boardTimeError, sizeof(boardTimeError), ""Board timed out waiting for temperature %i to be reached, current temp. is %i, aborting Run %u, Slot %u, TP = %s"", ( int )pRunPlan->getTemperature(), m_nCurrentTemperature, m_unRunNumber, m_unSlotNum, m_strTestplanName.c_str());}}","05/Aug/25 1:48 PM;5f59545a0cef2d007dcddcc8;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] , {{Step: 844511300}}is the result of run time memory overwritten by the string buffer overflow. So if we fix the string buffer overflow, this incorrect number should disappear.","05/Aug/25 2:06 PM;5f59545a0cef2d007dcddcc8;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] , how is boardTimeError defined?",05/Aug/25 2:08 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5f59545a0cef2d007dcddcc8] char boardTimeError [256],"18/Aug/25 12:16 PM;5f59545a0cef2d007dcddcc8;2 possible future enhancements:
+
+# Change all sprintf to snprintf to eliminate the chance of buffer overrun.
+# tp_exec runplan already handles SIGSEGV signal in “void signalHandlerDuringRun( int nSignalNo )”, pc_lib.C line 525. SIGSEGV handler should be minimal, and async-signal-safe. signalHandlerDuringRun() can invoke fox_xml_writer to merge report then call _exit(1) to exit for async-signal-safety. fox_xml_writer should be invoked with the -k option, which will use the existing step results directory specified by the -t option. This fox_xml_writer usage is stated at the end of the following Confluence page:
+
+[https://aehr.atlassian.net/wiki/spaces/FOX1NG/pages/1834221602/How+to+create+step+reports+from+raw+data+and+merge+them+into+XML+end+of+run+report.|https://aehr.atlassian.net/wiki/spaces/FOX1NG/pages/1834221602/How+to+create+step+reports+from+raw+data+and+merge+them+into+XML+end+of+run+report.|smart-link] ",20199,ABTS-7038,Minor Enhancements & Bug Fixes in v5.5.2,Done,11/Aug/25 10:12 AM
+FOX TP_Arbiter Timeout when Starting a Run (CAR-443),ABTS-7236,23699,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,16/Jul/25 5:55 PM,24/Sep/25 5:04 PM,24/Sep/25 5:04 PM,23/Sep/25 6:13 PM,,,,,,,0,101-WLBI_HW_Sustaining,Test whether the number of the slots create the error,,Aavan Mehernosh Vadiwala,,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,,,,;24/Sep/25 5:04 PM;6f62a154-8f1b-4884-83a5-c9be189da512;1800,,,0,1800,,,0,1800,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2c2502ca,,,,17/Jul/25 12:00 AM,,,,,16/Jul/25 5:55 PM,,,16/Jul/25 5:55 PM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,17/Jul/25 12:00 AM,,,,,,0|i00lkz:,,,,,,,,,,,,,,,,,,,FOX-XP,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_70815529_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,20199,ABTS-7038,Minor Enhancements & Bug Fixes in v5.5.2,Done,17/Jul/25 1:36 PM
+setVIDataCapture() command and ISCB functions should not be present at the same time on a step,ABTS-7196,23207,Task,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Lou Salvador,5f59545adf83ab007d7d5950,Lou Salvador,5f59545adf83ab007d7d5950,12/Jun/25 12:17 PM,26/Sep/25 10:26 AM,26/Sep/25 10:26 AM,22/Sep/25 4:35 PM,5.5.2,5.5.2,,TP Exec,,19/Jun/25 12:00 AM,0,107-ISCB,"ISCB functions uses the same memory location as ODM Data Capture. Having ISCB functions and setVIDataCapture() on the same step will conflict and produce incorrect results.  
+
+This needs to be flagged during testplan dryrun as an error.",,Hien Thanh Ho,Lou Salvador,,,5ac7ec1b1b5dd37ea53a1405,5f59545adf83ab007d7d5950,,,;26/Sep/25 10:26 AM;6f62a154-8f1b-4884-83a5-c9be189da512;86400,,,0,86400,,,0,86400,Internal,,,,,,,,,ABTS-7197,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@73598d70,,,,12/Jun/25 12:00 AM,,,,,12/Jun/25 12:17 PM,,,12/Jun/25 12:17 PM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,12/Jun/25 12:00 AM,,,,,,0|i00kcz:,,,,Not Required,,,,,,,,,,,,,,,FOX-XP,,,,,,,,,,,,,,,,,,,2025-06-12 21:36:08.562,1_*:*_1_*:*_88769966_*|*_3_*:*_1_*:*_266379140_*|*_5_*:*_1_*:*_0,"12/Jun/25 2:36 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] Add the following logic after line 8100 of pc_lib_foxn.C:
+
+{noformat}// If Calibration mode is on, then display error when setVIDataCapture() command is used and exit 
+if ( m_bEnableCalibration )
+{
+	Logit( LIBDERROR, strFuncName + "" Error: The setVIDataCapture() command is incompatible with the Calibration test plan because ISCB data utilizes the same memory location as ODM Data Capture."" );
+	exitout( PC_LIB_RETURN_FAIL );
+}{noformat}","17/Jun/25 1:01 PM;5f59545adf83ab007d7d5950;Works correctly:
+
+{{12:52:55 (pc_lib.C:2572) exitout - Error code: -1 }}
+{{12:52:55 (pc_lib.C:2574) Number of Warnings: 1 }}
+{{12:52:55 (pc_lib.C:2575) Number of Errors:   1 }}
+{{12:52:55 (abts_pc_alarms.C:385) Warning: ""Invalid setting"" }}
+{{12:52:55 (abts_pc_alarms.C:391)    1 warning(s) for ""No IO pins specified in cartridge config file"" }}
+{{12:52:55 (abts_pc_alarms.C:401) Error:   }}
+{{12:52:55 (abts_pc_alarms.C:407) }}
+
+
+
+
+{{op@abtsenglc01:~/ls_ISCB/BVCM/ISCB_BV_0V_25V_XPASS_MVI_F1_PSOCV_PSOCI_NOCAL}}
+",,,,,,,,,,,,,,,,,,,,,18323,ABTS-6495,In-Situ Calibration Support,Done,16/Jun/25 2:56 PM
+Add new parameter UWMFilename to setccfname(...) to set the UWM filename to use,ABTS-7183,23013,Task,Closed,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,30/May/25 2:58 PM,24/Sep/25 5:03 PM,24/Sep/25 5:01 PM,23/Sep/25 6:14 PM,,5.5.2,,tp_exec,,06/Jun/25 12:00 AM,0,103-WLBI_small_projects," Add an additional parameter string strUWMFileName to setccfname() to apply the UWM Duts Map into the DCCF in tp_exec/src/pc_lib_foxn.C as follows:
+
+{quote}Set UWM (Electronic Wafer Mapping IFX-STD) FileName with or w/o path if want to apply DUTs in UWM to DCCF
+
+Default path for UWM file is: /home/op/map_transfer/uwm if filename specfied without path
+
+Existing Prototype change:  setccfname( string strFullPathDCCFName, unsigned int unCCFType, string strUWMFileName = """" )  
+
+ add code to check if the file exists, if yes then save the filename; otherwise print an error and exit.{quote}
+
+
+",,Aavan Mehernosh Vadiwala,Andy Le,Hien Thanh Ho,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,611169dae6e6f80071513abe,5ac7ec1b1b5dd37ea53a1405,,;24/Sep/25 5:03 PM;6f62a154-8f1b-4884-83a5-c9be189da512;57600,,57600,0,57600,100%,57600,0,57600,Internal,ABTS-7245,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5cf58631,,,,30/May/25 12:00 AM,,,,,30/May/25 11:32 AM,,,30/May/25 11:32 AM,,,,,,,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=3}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":3,""lastUpdated"":""2025-06-25T18:59:20.678-0700"",""stateCount"":3,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":3,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,30/May/25 12:00 AM,,,,,,0|i00k1n:,,,,Not Required,,,,,,,,,,,,,,,FOX-CP,FOX-NP,FOX-XP,,,,,,,,,,,,,,,,,2025-06-03 22:11:23.917,1_*:*_1_*:*_414046757_*|*_3_*:*_1_*:*_789343100_*|*_5_*:*_1_*:*_5180735852_*|*_6_*:*_1_*:*_0,03/Jun/25 3:11 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;I found setccfname() in pc_lib.C not pc_lib_foxn.C.,12/Aug/25 11:22 AM;5ac7ec1b1b5dd37ea53a1405;[~accountid:611169dae6e6f80071513abe] does [https://aehr.atlassian.net/browse/ABTS-7245|https://aehr.atlassian.net/browse/ABTS-7245] make this Jira obsolete?,"12/Aug/25 11:44 AM;611169dae6e6f80071513abe;[~accountid:5ac7ec1b1b5dd37ea53a1405] , yes. [https://aehr.atlassian.net/browse/ABTS-7245|https://aehr.atlassian.net/browse/ABTS-7245|smart-link] supersedes this task. This should have no release notes required.",,,,,,,,,,,,,,,,,,,,23011,ABTS-7182,DigiTwin UWM-DCCF Application,Done,13/Jun/25 1:14 PM
+Add new tester function enableTimingSetRam() to enable the timing set RAM feature,ABTS-7181,23010,Task,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,30/May/25 11:32 AM,26/Sep/25 10:26 AM,26/Sep/25 10:25 AM,22/Sep/25 4:35 PM,,5.5.2,,tp_exec,,06/Jun/25 12:00 AM,0,107-ISCB,"Implement the new tester function enableTimingSetRam() to enable the timing set RAM feature in tp_exec/src/pc_lib_foxn.C as follows:
+
+
+{noformat}//=============================================================================
+// Description: Enable Timing Set Ram feature
+int PC::enableTimingSetRam()
+//=============================================================================
+{
+	int lstatus = PC_LIB_RETURN_OK;
+	rDebug(""Enabling Timing Set Ram feature"");
+	if ( validateTpFunction( __FUNCTION__ ) )
+	{
+		return PC_LIB_RETURN_WARNING;
+	}
+	m_bEnableTimingSetRam = true;
+	return (lstatus);
+}{noformat}
+
+Add this new function to{{/abts_config_csv/tester_functions_config/tester_functions_config.csv, setup = true}}
+
+This function is applicable in tp_setup() only.
+",,Aavan Mehernosh Vadiwala,Hien Thanh Ho,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,5ac7ec1b1b5dd37ea53a1405,,,;26/Sep/25 10:26 AM;6f62a154-8f1b-4884-83a5-c9be189da512;64800,,57600,0,64800,112%,57600,0,64800,Internal,,,,ABTS-7195,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6a8d472c,,,,30/May/25 12:00 AM,,,,,30/May/25 11:32 AM,,,30/May/25 11:32 AM,,,,,,,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=3}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":3,""lastUpdated"":""2025-06-25T18:59:20.678-0700"",""stateCount"":3,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":3,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,30/May/25 12:00 AM,,,,,,0|i00k0z:,,,,Not Required,,,,,,,,,,,,,,,FOX-CP,FOX-NP,FOX-XP,,,,,,,,,,,,,,,,,2025-06-11 18:27:47.105,1_*:*_1_*:*_1031363279_*|*_3_*:*_1_*:*_184421438_*|*_5_*:*_1_*:*_0,"11/Jun/25 11:27 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;For the csv file what should I put for the values {{strSystemType, strTFUUID, and strLicenseKey}}?
+","11/Jun/25 5:06 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;Used {{enableTimingSetRam(), TRUE, Enable timing set ram feature,,,,,,FOX1P,FOXXP,FOX1PWOP,,a461fc37-f07c-4e3f-ba99-26b77d0b13d2,}}","11/Jun/25 5:08 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;Its working in {{/abts_config_csv/tester_functions_config/tester_functions_config.csv, setup = true}} , I havent tested in any test plan, do you have a preference on what I should use? ",,,,,,,,,,,,,,,,,,,,20011,ABTS-6999,Chromium - 32 Mega Vector Timing Sets RAM,Done,13/Jun/25 1:15 PM
+Verify that the new version of Gitkraken is working,ABTS-7164,22841,Task,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,19/May/25 12:04 PM,26/Sep/25 10:25 AM,26/Sep/25 10:25 AM,22/Sep/25 4:35 PM,,5.5.2,,Installation,,20/May/25 12:00 AM,0,107-ISCB,"After installing the latest Gitkraken, verify that it is running without issue.",,Aavan Mehernosh Vadiwala,Hien Thanh Ho,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,5ac7ec1b1b5dd37ea53a1405,,,;26/Sep/25 10:25 AM;6f62a154-8f1b-4884-83a5-c9be189da512;600,,,0,600,,,0,600,Internal,,,,,,,,,ABTS-7156,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@3356e86b,,,,19/May/25 12:00 AM,,,,,19/May/25 12:04 PM,,,19/May/25 12:04 PM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,19/May/25 12:00 AM,,,,,,0|i00jsz:,,,,Not Required,,,,,,,,,,,,,,,FOX-XP,,,,,,,,,,,,,,,,,,,2025-05-21 18:08:40.262,1_*:*_1_*:*_2587062144_*|*_5_*:*_1_*:*_0,21/May/25 11:08 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;Version 11.1.0 can not be installed on openSUSE v42.2 due to the system being to old to support Libraries needed to install GitKraken v11.1.0,,,,,,,,,,,,,,,,,,,,,,,,,Done,18/Jun/25 10:42 AM
+Modify abts_purge_data to remove old .stdf files from ABTS_REPORT/STDF folder,ABTS-7159,22821,Task,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Andy Le,611169dae6e6f80071513abe,Andy Le,611169dae6e6f80071513abe,16/May/25 12:22 PM,26/Sep/25 10:25 AM,26/Sep/25 10:25 AM,22/Sep/25 4:36 PM,5.5.0,5.5.2,,STDF,,,0,107-ISCB,"Modify abts_purge_data to remove old .stdf files from ABTS_REPORT/STDF folder.
+
+It is important to avoid some .txt log files as they should not be removed from this directory:
+
+# STDFQueue.txt
+# CompletedSTDF.txt
+# FailedSTDF.txt
+
+This folder should be purged every 30 days or at the same rate as the RunReport Folder",,Andy Le,Hien Thanh Ho,,,611169dae6e6f80071513abe,5ac7ec1b1b5dd37ea53a1405,,,;26/Sep/25 10:25 AM;6f62a154-8f1b-4884-83a5-c9be189da512;86400,,,0,86400,,,0,86400,Internal,,,,,,,,,ABTS-7202,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@122f8cd9,,,,16/May/25 12:00 AM,,,,,16/May/25 12:22 PM,,,16/May/25 12:22 PM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,16/May/25 12:00 AM,,,,,,0|i00jrf:,,,,Not Required,,,,,,,,,,,,,,,FOX-NP,FOX-XP,,,,,,,,,,,,,,,,,,2025-06-16 23:37:55.25,1_*:*_1_*:*_2845183146_*|*_3_*:*_1_*:*_428459631_*|*_5_*:*_1_*:*_0,16/Jun/25 4:37 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:611169dae6e6f80071513abe] [~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] the abts_utilities/src/abts_purge_data/abts_purge_data script already checks to purge the STDFs.,,,,,,,,,,,,,,,,,,,,,,22064,ABTS-7099,STDF Support for Digitwin,Done,23/Jun/25 9:42 AM
+Review Accretech manuals,ABTS-7157,22819,Task,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,16/May/25 12:11 PM,24/Sep/25 5:10 PM,24/Sep/25 5:10 PM,23/Sep/25 6:13 PM,,,,,,23/May/25 12:00 AM,0,105-ITC,Go through the Accretech manuals on Confluence to prepare for the upcoming Accretech tool training.,,Hien Thanh Ho,,,,5ac7ec1b1b5dd37ea53a1405,,,,;24/Sep/25 5:10 PM;6f62a154-8f1b-4884-83a5-c9be189da512;57600,,,0,57600,,,0,57600,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5c92d3c4,,,,16/May/25 12:00 AM,,,,,16/May/25 12:11 PM,,,16/May/25 12:11 PM,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,16/May/25 12:00 AM,,,,,,0|i00jqz:,,,,Not Required,,,,,,,,,,,,,,,FOX-CP,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_1458103384_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,18768,ABTS-6649,Accretech Prober Support (FOX-CP),Done,02/Jun/25 9:13 AM
+Slot Showed Loaded Without SN# After Power On SW 5.5.1,ABTS-7129,21223,Bug,Open,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Giang Nghiem,60cfc0839469280070e77fe4,Giang Nghiem,60cfc0839469280070e77fe4,10/Mar/25 10:21 AM,28/Sep/25 11:28 AM,28/Sep/25 11:28 AM,,,5.5.3,,App Server,,29/Aug/25 12:00 AM,0,102-WLBI_SW_Support,Refer attachment,,Giang Nghiem,Hien Thanh Ho,,,60cfc0839469280070e77fe4,5ac7ec1b1b5dd37ea53a1405,,,,,,,,,,,,Internal,,,,,,,,,,13/Mar/25 1:50 PM;ug:5046e6de-624a-4a70-9416-8a0097cf1962;SlotShowLoadedWithoutSNAfterPowerON.pptx;https://aehr.atlassian.net/rest/api/3/attachment/content/19828,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5fc7a220,,,,10/Mar/25 12:00 AM,,,,,10/Mar/25 10:21 AM,,,10/Mar/25 10:21 AM,,,,,,,,{},,,,,,,,,,,,,,It happens very often when cycling tester power,,,,,,,,,,,,,,,10/Mar/25 12:00 AM,,,,,,0|i00hub:,,,,,,,,,,,,,,,,,,,FOX-NP,FOX-XP,,,,,,,,,,,,,Power Cycle tester,FOX-XP and FOX -NP,,,,2025-03-10 18:26:15.329,,"10/Mar/25 11:26 AM;5ac7ec1b1b5dd37ea53a1405;[~accountid:60cfc0839469280070e77fe4] Please provide the attachment, what LC does the problem occurs?",10/Mar/25 1:45 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:5f59545ac4fbeb0069993516] Please look at the log on abtslc116,25/Aug/25 5:26 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] Could you discuss with Giang to duplicate this issue?,,,,,,,,,,,,,,,,,,,,23999,ABTS-7274,Minor Enhancements & Bug Fixes in v5.5.3,To Do,29/May/25 5:08 PM
+FC_Mode:  FC_NONE still collect the data (CAR-377),ABTS-6946,19854,Bug,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Giang Nghiem,60cfc0839469280070e77fe4,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,03/Oct/24 3:31 PM,28/Sep/25 11:28 AM,28/Sep/25 11:28 AM,23/Sep/25 6:14 PM,,5.5.3,,,,,0,102-WLBI_SW_Support,See attached,,Aavan Mehernosh Vadiwala,Hien Thanh Ho,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,5ac7ec1b1b5dd37ea53a1405,,,;26/Sep/25 10:38 AM;6f62a154-8f1b-4884-83a5-c9be189da512;144000,,288000,144000,144000,50%,288000,144000,144000,Internal,,,CAR-377,ABTS-7383,,,,,,03/Oct/24 3:31 PM;ug:392b7f02-1809-4fc8-aa7a-59fcd2b62fcf;FC_Mode_UsingFC_None_DoesNotWork.pptx;https://aehr.atlassian.net/rest/api/3/attachment/content/17962,16/Sep/25 12:28 PM;6f62a154-8f1b-4884-83a5-c9be189da512;image-20250916-175558.png;https://aehr.atlassian.net/rest/api/3/attachment/content/22800,17/Sep/25 1:36 PM;ug:392b7f02-1809-4fc8-aa7a-59fcd2b62fcf;image-20250917-203619.png;https://aehr.atlassian.net/rest/api/3/attachment/content/22815,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@4c4ee303,,,,12/Sep/24 12:00 AM,,,,,12/Sep/24 1:54 PM,,,12/Sep/24 1:54 PM,,,,,,,,"{pullrequest={dataType=pullrequest, state=OPEN, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2025-09-19T11:20:27.231-0700"",""stateCount"":1,""state"":""OPEN"",""dataType"":""pullrequest"",""open"":true},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,all FOX_XP/NP,yes. When using Vpinout with FC_NONE,,,,,,,,,,,,,,,12/Sep/24 12:00 AM,,,,,,0|i00f1v:,,,,,,,,,,,,,,,,,,,FOX-CP,FOX-NP,FOX-XP,,,,,,,,,,,Still collect data ,Using Vpinout with FC_NONE,FOX system,App group,N/A,,2025-04-22 00:21:43.073,1_*:*_1_*:*_9427336435_*|*_3_*:*_1_*:*_20803627015_*|*_5_*:*_1_*:*_450799000_*|*_6_*:*_1_*:*_0_*|*_10000_*:*_1_*:*_44583,21/Apr/25 5:21 PM;5ac7ec1b1b5dd37ea53a1405;Treat FC_NONE as FC_DATA_COLLECT_PASS_FAIL => fcmode then disable Test Data Write Bit.,"16/Sep/25 12:28 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;!image-20250916-175558.png|width=1026%,alt=""image-20250916-175558.png""!
+
+can confirm that when when FC_NONE is called, data is still uploaded ","17/Sep/25 1:36 PM;5ac7ec1b1b5dd37ea53a1405;Modify this section of code
+
+!image-20250917-203619.png|width=1441%,alt=""image-20250917-203619.png""!",,,,,,,,,,,,,,,,,,,,23999,ABTS-7274,Minor Enhancements & Bug Fixes in v5.5.3,Done,18/Sep/25 1:01 PM
+settime function does not work as expected (CAR 376),ABTS-6945,19853,SCAR,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,2,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Giang Nghiem,60cfc0839469280070e77fe4,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,03/Oct/24 2:54 PM,28/Sep/25 11:28 AM,28/Sep/25 11:28 AM,23/Sep/25 6:11 PM,,5.5.3,,TP Exec,,05/Sep/25 12:00 AM,0,102-WLBI_SW_Support,"settime function does not work as expected
+
+We want settime to repeat the v-pattern for a specific amount of time. The v-pattern is tied to vset commands, which increases the total time. How settime works is that it has the function ""addJBCCVector"" jump to address of the beginning of the ""cycle"" it wants to repeat.
+
+Currently settime has repeated the vset commands everytime. We want to change that depending on how many vset commands there are. If only one vset command is specified then we will change the address of the ""start"" to after the vset commands. If there are no vset commands the testplan is not usable.
+
+Before doing this I'll need to find / keep track of the total amount of ""vset"", including its address.
+
+int settimeAddress() {
+    int jumpAdrs = 0; // if no settime
+    if(m_Runtime) { // if in settime
+        if(vsetCounter > 1) { // if there are multiple vsets
+            // address becomes the start of the 1st vset
+            jumpAdrs = vset1.startAdrs();
+        }
+        else if(vsetCounter == 1) { // if there is one vset
+            // address becomes end of vset
+            jumpAdrs = vset1.endAdrs() + 1;
+        }
+        else { // no vset
+            error_and_exit();
+        }
+    }
+    return jumpAdrs;
+}",,Aavan Mehernosh Vadiwala,Hien Thanh Ho,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,5ac7ec1b1b5dd37ea53a1405,,,;26/Sep/25 10:37 AM;6f62a154-8f1b-4884-83a5-c9be189da512;432000,,288000,0,432000,150%,288000,0,432000,Internal,,,CAR-376,,,,,,,29/Aug/25 11:28 AM;6f62a154-8f1b-4884-83a5-c9be189da512;CamScanner 8-29-25 11.28_1.jpeg;https://aehr.atlassian.net/rest/api/3/attachment/content/22569,26/Aug/25 4:48 PM;6f62a154-8f1b-4884-83a5-c9be189da512;image-20250826-220107.png;https://aehr.atlassian.net/rest/api/3/attachment/content/22510,26/Aug/25 4:48 PM;6f62a154-8f1b-4884-83a5-c9be189da512;image-20250826-220502.png;https://aehr.atlassian.net/rest/api/3/attachment/content/22511,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@4cccc262,,,,07/Sep/24 12:00 AM,,,,,06/Sep/24 8:11 PM,,,06/Sep/24 8:11 PM,,,,,,,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=2}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":2,""lastUpdated"":""2025-09-17T15:00:11.752-0700"",""stateCount"":2,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":2,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,N/A,n/A,,,,,,,,,,,,,,,07/Sep/24 12:00 AM,,,,,,0|i00f1n:,,,,,,,,,,,,,,,,,,,FOX-CP,FOX-NP,FOX-XP,,,,,,,,,,,N/A,N/A,FOX-NP/FOX-XP/FOX-CP,AEHR Application Group,N/A,,2025-08-26 00:38:10.219,1_*:*_1_*:*_11589_*|*_3_*:*_1_*:*_30139135645_*|*_5_*:*_1_*:*_544634357_*|*_6_*:*_1_*:*_0_*|*_10000_*:*_1_*:*_45768,"25/Aug/25 5:38 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde]Use a working testplan*,* and insert {{settime(duration)}}—for example, {{settime(120)}} to run for 2 minutes—within the {{tp_setup()}} section. Then verify that the testplan executes for the specified duration and terminates accordingly on {{abtslc107}}. 
+
+Re-execute the 3-step testplan, ensuring that the pattern runtime totals 6 minutes—not merely 6 minutes of wall-clock elapsed time.","26/Aug/25 4:48 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;!image-20250826-220107.png|width=669,height=463,alt=""image-20250826-220107.png""!
+
+!image-20250826-220502.png|width=230,height=103,alt=""image-20250826-220502.png""!
+
+Can comfirm that settime does not work","27/Aug/25 10:25 AM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] Review the tp_exec log file to find out the pattern time, not the system time as you shown.","27/Aug/25 6:18 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;{{2025-08-27T16:23:25.998954-07:00 b00 : mbb0_mc0_mcpg0: CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3246, Step=0 total time=173.60 secs}}
+
+{{2025-08-27T16:26:36.901750-07:00 b00 : mbb0_mc0_mcpg0: CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3246, Step=1 total time=176.85 secs}}
+
+{{2025-08-27T16:29:47.693838-07:00 b00 : mbb0_mc0_mcpg0: CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3246, Step=2 total time=176.17 secs}}","29/Aug/25 11:28 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;!CamScanner 8-29-25 11.28_1.jpeg|thumbnail!
+
+","10/Sep/25 8:03 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;W/O settime(120)
+
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3291, Step=0 total time=12.72 secs}}
+
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3291, Step=1 total time=12.25 secs}}
+
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3291, Step=2 total time=12.32 secs}}
+W settime(120)
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3292, Step=0 total time=180.55 secs}}
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3292, Step=1 total time=184.69 secs}}
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3292, Step=2 total time=175.21 secs}}
+
+
+",10/Sep/25 8:08 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] avg of 47.67 seconds more than expected outcome.  ,"10/Sep/25 8:12 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] After deeper reflection, function failed “{{Failed to set time address to 4D}}""","11/Sep/25 1:50 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;settime w/ setTimeAddress
+
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3293, Step=0 total time=180.78 secs}}
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3293, Step=1 total time=184.97 secs}}
+
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3293, Step=2 total time=175.28 secs}}
+
+----
+
+No settime
+
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3294, Step=0 total time=12.66 secs}}
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3294, Step=1 total time=12.02 secs}}
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3294, Step=2 total time=12.25 secs}}
+
+----
+
+settime w/o setTimeAddress
+
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3295, Step=0 total time=180.31 secs}}
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3295, Step=1 total time=184.97 secs}}
+{{CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3295, Step=2 total time=175.46 secs}}
+","12/Sep/25 11:21 AM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] If {{tp_setup()}} includes the {{setstepmode(SM_POWERON)}} call, then {{vset()}} should only be invoked during step 0. This is because the power supplies remain active across steps, eliminating the need to reapply voltage settings in subsequent steps.
+
+*Example modification to* {{testplan()}}*:*
+
+{noformat}   if (getstep() == 0) {	
+	vset(""VSET1"");
+   }{noformat}
+
+In this configuration, {{vset()}} is intentionally omitted from step 1 and subsequent steps. However, the ""jump back"" address location must still be accounted for to ensure proper flow control and test continuity for the rest of the time specified in{{ settime().}}","12/Sep/25 11:33 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5ac7ec1b1b5dd37ea53a1405] The way my implementation works is that the vset count is reset after every step, so my logic should not work with this.
+{{""Error: setTimeJumpAdrs not set before atLast()""}}. 
+I will look into ways to account for this.","15/Sep/25 10:17 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3301, Step=0 total time=1856.44 secs
+CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3301, Step=1 total time=1859.55 secs
+CAppsSrvrIF::send_patt_done - PATTERN_DONE Sent Run=3301, Step=2 total time=1861.26 secs
+
+this proves that their is a constant ~1 minute constant with the settime. ",,,,,,,,,,,23999,ABTS-7274,Minor Enhancements & Bug Fixes in v5.5.3,Done,17/Sep/25 10:54 AM
+SC Oven Over-Temperature Error needs more description,ABTS-6723,19036,Improvement,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,3,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Lou Salvador,5f59545adf83ab007d7d5950,Lou Salvador,5f59545adf83ab007d7d5950,11/Jan/24 4:48 PM,26/Sep/25 10:34 AM,26/Sep/25 10:33 AM,22/Sep/25 4:35 PM,,5.5.2,,System Control,,,0,107-ISCB,"On abtslc106
+
+2024-01-11T16:39:34.719498-08:00 abtslc106 abts_machine_error: E,S,,S, ""Oven over-temp fault.#012 This alarm is sent only once for each cycling of system power.""
+
+It doesn't tell what the limit is and what the current oven-temperature reading is.  Also don't need to mention that alarm is sent only once.
+",,Aavan Mehernosh Vadiwala,Lou Salvador,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,5f59545adf83ab007d7d5950,,,;26/Sep/25 10:34 AM;6f62a154-8f1b-4884-83a5-c9be189da512;115200,,,0,115200,,,0,115200,Internal,,,,,,,,,,29/Jul/25 12:44 PM;6f62a154-8f1b-4884-83a5-c9be189da512;image-20250729-194404.png;https://aehr.atlassian.net/rest/api/3/attachment/content/22061,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@554d6f38,PEER,,,12/Jan/24 12:00 AM,,,,,11/Jan/24 4:48 PM,,,11/Jan/24 4:48 PM,,,,,,,,"{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={""cachedValue"":{""errors"":[],""summary"":{""pullrequest"":{""overall"":{""count"":1,""lastUpdated"":""2025-07-29T14:03:34.984-0700"",""stateCount"":1,""state"":""MERGED"",""dataType"":""pullrequest"",""open"":false},""byInstanceType"":{""bitbucket"":{""count"":1,""name"":""Bitbucket Cloud""}}}}},""isStale"":true}}",,,,,,,,,,,,,So far found in 1 system.,Just turn on the system and wait for the alarm to pop-up.,,,,,,,,,,,,,,,12/Jan/24 12:00 AM,,,,,,0|i00asz:,,,Enhanced error messaging was implemented to improve clarity when the system enters a fault state due to over-temperature conditions.,,,,,,,,,,,,,,,,FOX-CP,FOX-NP,FOX-XP,,,,,,,,,,,The description indicates the issue,,abtslc106,Lou Salvador,The alarm doesn't provide enough information regarding the limit threshold and the reading.,,2025-07-23 19:28:24.515,1_*:*_1_*:*_48288650322_*|*_3_*:*_1_*:*_513874396_*|*_5_*:*_1_*:*_0,"23/Jul/25 12:28 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;“This alarm is sent only once for each cycling of system power.” - This message is added to every part of all error messages in the base_unit_foxhxx.C, removing will mean removing it for all messages.","29/Jul/25 12:44 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;!image-20250729-194404.png|width=834,height=542,alt=""image-20250729-194404.png""!",,,,,,,,,,,,,,,,,,,,,20199,ABTS-7038,Minor Enhancements & Bug Fixes in v5.5.2,Done,29/Jul/25 2:03 PM
+Auto-assign setup file reading per step? ,ABTS-6553,18415,Bug,In Progress,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,yonghwa lee,60cfbfd39469280070e779cf,yonghwa lee,60cfbfd39469280070e779cf,08/Jun/23 2:08 PM,28/Sep/25 11:29 AM,28/Sep/25 11:28 AM,,5.2.0,5.5.3,,TP Exec,,03/Oct/25 12:00 AM,0,102-WLBI_SW_Support,"h2. Impact
+
+The bug causes the same lot# and wafer number to appear in multiple slots. This leads to incorrect data being processed during operations. 
+
+h2. Expected behavior
+
+The system should read the auto-assign setup file only once per slot. It should not overwrite the lot# and wafer number during the running process.
+
+h2. Actual behavior
+
+The system is repeatedly calling the auto-assign setup file, resulting in overwriting the lot# and wafer number. For example, lot# KG33NL7A and wafer number 06 in slot 14 were overwritten to KG33NL7A and 07 in step 3.
+
+h2. Steps to reproduce
+
+* Input lot# KG33NL7A and wafer number 06 in slot 14 using auto-assign setup.
+* Start the running process.
+* Observe the overwriting of the wafer number in step 3.
+
+h2. Other information
+
+The issue was previously fixed in abts-sw-v5.2.0 (ABTS-6368), which ensured the system reads the auto-assign setup file only once per lot.
+
+Log excerpts:
+
+{noformat}2023-05-23T01:21:23.074055+09:00 WB15-1 TP_EXEC_14: gemGetAssignTestplanFields: Called  
+2023-05-23T01:21:23.074406+09:00 WB15-1 TP_EXEC_14: CABTS_Run_Plan::getWaferID: Got Wafer ID D1899T-D02/PWB15-14 from /home/op/map_transfer/Wafer_Map_Load/00000607d2.  
+2023-05-23T01:21:23.074473+09:00 WB15-1 TP_EXEC_14: CABTS_Run_Plan::getWaferID: Got Slot (Wafer Number) 06 from /home/op/map_transfer/Wafer_Map_Load/00000607d2.  
+2023-05-23T01:21:23.074525+09:00 WB15-1 TP_EXEC_14: CABTS_Run_Plan::getWaferID: Got Operator 99510744 from /home/op/map_transfer/Wafer_Map_Load/00000607d2.  
+2023-05-23T01:21:23.074580+09:00 WB15-1 TP_EXEC_14: CABTS_Run_Plan::getWaferID: Got Product ID CM1607X28BM-WDXSW from /home/op/map_transfer/Wafer_Map_Load/00000607d2.  
+2023-05-23T01:21:23.074630+09:00 WB15-1 TP_EXEC_14: create_step_report: Wafer ID 'D1899T-D02/PWB15-14',  Wafer Number '06'  
+2023-05-23T01:21:23.074680+09:00 WB15-1 TP_EXEC_14: Issuing command: /home/op/bin/step_script.sh 15627 14 0 00000607d2 WB15-1 2023-05-22T22:46:07.0Z 2023-05-22T22:46:07.0Z D1899_WSBI27V_18HR v7a KG33NL7A 2 1 3 1 D1899T-D02/PWB15-14 06  
+2023-05-23T01:21:23.088508+09:00 WB15-1 TP_EXEC_14: /home/op/bin/step_script.sh 15627 14 0 00000607d2 WB15-1 2023-05-22T22:46:07.0Z 2023-05-22T22:46:07.0Z D1899_WSBI27V_18HR v7a KG33NL7A 2 1 3 1 D1899T-D02/PWB15-14 06 command returned status: 0
+
+2023-05-23T02:23:25.554437+09:00 WB15-1 TP_EXEC_14: gemGetAssignTestplanFields: Called  
+2023-05-23T02:23:25.554602+09:00 WB15-1 TP_EXEC_14: CABTS_Run_Plan::getWaferID: Got Wafer ID D1899T-D02/PWB15-17 from /home/op/map_transfer/Wafer_Map_Load/00000607d2.  
+2023-05-23T02:23:25.554649+09:00 WB15-1 TP_EXEC_14: CABTS_Run_Plan::getWaferID: Got Slot (Wafer Number) 07 from /home/op/map_transfer/Wafer_Map_Load/00000607d2.  
+2023-05-23T02:23:25.554685+09:00 WB15-1 TP_EXEC_14: CABTS_Run_Plan::getWaferID: Got Operator 99510744 from /home/op/map_transfer/Wafer_Map_Load/00000607d2.  
+2023-05-23T02:23:25.554719+09:00 WB15-1 TP_EXEC_14: CABTS_Run_Plan::getWaferID: Got Product ID CM1607X28BM-WDXSW from /home/op/map_transfer/Wafer_Map_Load/00000607d2.  
+2023-05-23T02:23:25.554752+09:00 WB15-1 TP_EXEC_14: create_step_report: Wafer ID 'D1899T-D02/PWB15-17',  Wafer Number '07'  
+2023-05-23T02:23:25.554785+09:00 WB15-1 TP_EXEC_14: Issuing command: /home/op/bin/step_script.sh 15627 14 0 00000607d2 WB15-1 2023-05-22T22:46:07.0Z 2023-05-22T22:46:07.0Z D1899_WSBI27V_18HR v7a KG33NL7A 3 1 4 1 D1899T-D02/PWB15-17 07  
+2023-05-23T02:23:25.568512+09:00 WB15-1 TP_EXEC_14: /home/op/bin/step_script.sh 15627 14 0 00000607d2 WB15-1 2023-05-22T22:46:07.0Z 2023-05-22T22:46:07.0Z D1899_WSBI27V_18HR v7a KG33NL7A 3 1 4 1 D1899T-D02/PWB15-17 07 command returned status: 0{noformat}",,Aavan Mehernosh Vadiwala,Hien Thanh Ho,yonghwa lee,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,5ac7ec1b1b5dd37ea53a1405,60cfbfd39469280070e779cf,,,,,,,,,,,Internal,,,,,,,,,,08/Jun/23 2:08 PM;ug:559a9082-e2ca-49d8-a3e9-944170b1b844;KG33NL7A_006_0_05.22.2023_22.48.30.NAM;https://aehr.atlassian.net/rest/api/3/attachment/content/16053,08/Jun/23 2:08 PM;ug:559a9082-e2ca-49d8-a3e9-944170b1b844;KG33NL7A_006_1_05.23.2023_00.19.24.NAM;https://aehr.atlassian.net/rest/api/3/attachment/content/16050,08/Jun/23 2:08 PM;ug:559a9082-e2ca-49d8-a3e9-944170b1b844;KG33NL7A_006_2_05.23.2023_01.21.24.NAM;https://aehr.atlassian.net/rest/api/3/attachment/content/16048,08/Jun/23 2:08 PM;ug:559a9082-e2ca-49d8-a3e9-944170b1b844;KG33NL7A_007_3_05.23.2023_02.23.26.NAM;https://aehr.atlassian.net/rest/api/3/attachment/content/16047,08/Jun/23 2:04 PM;ug:559a9082-e2ca-49d8-a3e9-944170b1b844;Same_lot#_WF#_issue_S14_S15_2023-06-09 051405.gif;https://aehr.atlassian.net/rest/api/3/attachment/content/16052,08/Jun/23 2:05 PM;ug:559a9082-e2ca-49d8-a3e9-944170b1b844;abts_report_15627_0.zip;https://aehr.atlassian.net/rest/api/3/attachment/content/16054,08/Jun/23 2:03 PM;ug:559a9082-e2ca-49d8-a3e9-944170b1b844;tp_exec_14.log-20230523.bz2;https://aehr.atlassian.net/rest/api/3/attachment/content/16049,08/Jun/23 2:03 PM;ug:559a9082-e2ca-49d8-a3e9-944170b1b844;tp_exec_14.log-20230524.bz2;https://aehr.atlassian.net/rest/api/3/attachment/content/16051,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6e0a4f8a,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,ABTS-6368,,,,,,,,,0|i007d3:,,,,,,,,,,,,,,,22/Sep/25 12:00 AM,,,,FOX-XP,,,,,,,,,,,,,,,,,,,2025-09-23 18:47:50.164,,"23/Sep/25 11:47 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5ac7ec1b1b5dd37ea53a1405] I found this command, could this be related ?
+
+Issuing command: /home/op/bin/step_script.sh 15627 14 0 00000607d2 WB15-1 2023-05-22T22:46:07.0Z 2023-05-22T22:46:07.0Z D1899_WSBI27V_18HR v7a KG33NL7A 14 1 *15* 1 D1899T-D02/PWB15-17 07
+2023-05-23T13:45:30.960502+09:00 WB15-1 
+
+ /home/op/bin/step_script.sh 15627 14 0 00000607d2 WB15-1 2023-05-22T22:46:07.0Z 2023-05-22T22:46:07.0Z D1899_WSBI27V_18HR v7a KG33NL7A 14 1 *15* 1 D1899T-D02/PWB15-17 07 command returned status: 0","23/Sep/25 11:56 AM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] No, it's unrelated. The {{/home/op/bin/step_script.sh}} script is designed to convert the XML step report into CSV format and copy the original XML file to a different directory. You can review its contents in the {{/home/op/bin}} folder on {{abtslc107}}. The return status is zero, indicating that the script executed successfully.",,,,,,,,,,,,,,,,,,,,,23999,ABTS-7274,Minor Enhancements & Bug Fixes in v5.5.3,In Progress,23/Sep/25 2:09 PM
+FOX CP: Verify that testplan execution based on chuck temperature is working and temperature is logging: Testing,ABTS-5552,16127,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,07/Jun/19 2:55 PM,28/Sep/25 11:29 AM,28/Sep/25 11:29 AM,12/Jun/19 12:14 PM,4.6.0,4.7.0,5.5.2,tp_exec,,,0,102-WLBI_SW_Support,"TC1: Verify that when it is a FOX-CP system, and the testplan uses PCL_CHUCK_TEMP as temperature source then the  OVEN temperature will be used for mornitoring and the report shows strTempSource as ""temp_cntlr"".
+TC2: Verify that the temperature source PCL_THIN_CHUCK_TEMP or PCL_OVEN_TEMP is not valid on FOX-CP system when using setTPMEnable() command in testplan.
+Note: refer to [http://confluence.aehr.com/display/FOX1NG/How+to+run+a+testplan+in+auto+mode+under+simulator+mode|http://confluence.aehr.com/display/FOX1NG/How+to+run+a+testplan+in+auto+mode+under+simulator+mode] to run TC1 on abtsenglc01
+
+Use testplan {{FOXCP_TLB}} in {{~/testplans_op/fox1p/FOXCP_TLB }}folder",,Hien Thanh Ho,Larry Kells,,,5ac7ec1b1b5dd37ea53a1405,5f59551a7187b8006f01d6e3,,,Wrote testcases and executed on abtsenglc01;12/Jun/19 12:15 PM;ug:392b7f02-1809-4fc8-aa7a-59fcd2b62fcf;28800,,,,28800,,,,28800,Internal,,,,,,,ABTS-5541,ABTS-5528,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@7a43c5ed,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|1011lc:,,,,Not Required,,,,,,,,,,,,,,,FOX-CP,,,,,,,Required,Required,,,,,,,,,,,,1_*:*_1_*:*_349882785_*|*_3_*:*_1_*:*_72493026_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,18768,ABTS-6649,Accretech Prober Support (FOX-CP),Done,
+To verify one slot is canceled while the other slot can continue to run. ,ABTS-5059,15616,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,21/May/18 2:32 PM,26/Sep/25 10:19 AM,26/Sep/25 10:19 AM,22/Sep/25 4:36 PM,,5.5.2,,App Server Zone Controller,,,0,109-Malibu,"The following main components are tested:
+
+AbtsZCBean
+ZCQueueManager
+ZCProcessMonitorZCSlot
+ZCSlotStatus
+MultiZCStatus
+Status
+
+Preconditions
+Assume that the system is already initialized properly and the system has two or more logical zones.
+
+TestCase:
+get a SysConfigFile that supports two slots, and a testplan than can test the boards.",,Michael Vong,,,,60cfbfe3dae5670068cd8cb9,,,,;26/Sep/25 10:19 AM;6f62a154-8f1b-4884-83a5-c9be189da512;1800,,3600,1800,1800,50%,3600,1800,1800,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@254d381a,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,478,,,,,,,,,,,,,,,,,,,,,,,,,,0|100y68:,,,,Not Required,,,,,,,,,,,,,,,FOX-XP,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_225164882931_*|*_3_*:*_1_*:*_685075146_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,,,,Done,17/Jul/25 2:38 PM
+To verify the multiple logical zones can run different testplans at the same time.,ABTS-5058,15613,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,21/May/18 1:14 PM,26/Sep/25 10:18 AM,26/Sep/25 10:18 AM,22/Sep/25 4:36 PM,,5.5.2,,App Server Zone Controller,,,0,109-Malibu,"The following main components are tested:
+
+AbtsZCBean
+ZCQueueManager
+ZCProcessMonitorZCSlot
+ZCSlotStatus
+MultiZCStatus
+Status
+
+Preconditions
+Assume that the system is already initialized properly and the system has two or more logical zones.
+
+
+
+Test plan:
+Run two testplans on different slots.",,Michael Vong,,,,60cfbfe3dae5670068cd8cb9,,,,;26/Sep/25 10:18 AM;6f62a154-8f1b-4884-83a5-c9be189da512;1800,,3600,1800,1800,50%,3600,1800,1800,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@3682af57,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,477,,,,,,,,,,,,,,,,,,,,,,,,,,0|100y60:,,,,Not Required,,,,,,,,,,,,,,,FOX-XP,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_225337996268_*|*_3_*:*_1_*:*_516615475_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,,,,Done,17/Jul/25 2:38 PM
+To validate the test plan can be completed properly.,ABTS-5056,15607,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,18/May/18 1:45 PM,24/Sep/25 5:26 PM,24/Sep/25 5:26 PM,22/Sep/25 4:36 PM,,5.5.2,,App Server Zone Controller,,,0,108-Sierra_Aligner,"The following main components are tested:
+
+AbtsZCBean
+TPEndRun()
+EndRunReply()
+ZCQueueManager
+ZCProcessMonitorZCSlot
+ZCSlotStatus
+MultiZCStatus
+Status
+
+Preconditions
+Assume that the system is already initialized properly.
+
+Test case
+
+Run a testplan",,Michael Vong,,,,60cfbfe3dae5670068cd8cb9,,,,;24/Sep/25 5:26 PM;6f62a154-8f1b-4884-83a5-c9be189da512;3600,,3600,0,3600,100%,3600,0,3600,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1b41f145,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,476,,,,,,,,,,,,,,,,,,,,,,,,,,0|100y5k:,,,,Not Required,,,,,,,,,,,,,,,FOX-4,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_225597007320_*|*_3_*:*_1_*:*_514975310_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,,,,Done,17/Jul/25 2:38 PM
+To verify the test step can be cancelled properly. ,ABTS-5055,15605,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,18/May/18 11:01 AM,24/Sep/25 5:26 PM,24/Sep/25 5:26 PM,22/Sep/25 4:36 PM,,5.5.2,,App Server Zone Controller,,,0,108-Sierra_Aligner,"The following main components are tested:
+
+AbtsZCBean
+        TPEndRun()
+        EndRunReply()
+ZCQueueManager
+ZCProcessMonitorZCSlot
+ZCSlotStatus
+MultiZCStatus
+Status
+
+Preconditions
+Assume that the system is already initialized properly.",,Michael Vong,,,,60cfbfe3dae5670068cd8cb9,,,,;24/Sep/25 5:26 PM;6f62a154-8f1b-4884-83a5-c9be189da512;3600,,3600,0,3600,100%,3600,0,3600,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@389a1916,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,475,,,,,,,,,,,,,,,,,,,,,,,,,,0|100y5c:,,,,Not Required,,,,,,,,,,,,,,,FOX-4,,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_225606808654_*|*_3_*:*_1_*:*_514983836_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,,,,Done,17/Jul/25 2:38 PM
+To validate the test step can be stopped properly. ,ABTS-5054,15602,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,18/May/18 10:38 AM,24/Sep/25 5:26 PM,24/Sep/25 5:26 PM,22/Sep/25 4:36 PM,,5.5.2,,App Server Zone Controller,,,0,107-ISCB,"The following main components are tested:
+
+AbtsZCBean
+        TPStoptStep
+        StoptSteptReply()
+ZCQueueManager
+ZCProcessMonitorZCSlot
+ZCSlotStatus
+MultiZCStatus
+Status
+
+Preconditions
+Assume that the system is already initialized properly.",,Michael Vong,,,,60cfbfe3dae5670068cd8cb9,,,,;24/Sep/25 5:26 PM;6f62a154-8f1b-4884-83a5-c9be189da512;7200,,14400,7200,7200,50%,14400,7200,7200,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@318bbce4,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,474,,,,,,,,,,,,,,,,,,,,,,,,,,0|100y54:,,,,Not Required,,,,,,,,,,,,,,,FOX-4,,,,,,,,,,,,,,,,,,,,1_*:*_2_*:*_2182725247_*|*_3_*:*_2_*:*_223940439959_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,,,,Done,17/Jul/25 2:38 PM
+To validate the test step can be started properly. ,ABTS-5053,15599,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,18/May/18 10:15 AM,24/Sep/25 5:23 PM,24/Sep/25 5:26 PM,22/Sep/25 4:35 PM,,5.5.2,,App Server Zone Controller,,,0,107-ISCB,"The following main components are tested:
+AbtsZCBean
+        TPStartStep()
+        StartStartReply()
+ZCQueueManager
+ZCProcessMonitorZCSlot
+ZCSlotStatus
+MultiZCStatus
+Status
+
+Preconditions
+Assume that the system is already initialized properly.",,Michael Vong,,,,60cfbfe3dae5670068cd8cb9,,,,;24/Sep/25 5:23 PM;6f62a154-8f1b-4884-83a5-c9be189da512;14400,,14400,0,14400,100%,14400,0,14400,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2554aad2,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,473,,,,,,,,,,,,,,,,,,,,,,,,,,0|100y4w:,,,,Not Required,,,,,,,,,,,,,,,FOX-4,,,,,,,,,,,,,,,,,,,,1_*:*_2_*:*_2181359483_*|*_3_*:*_2_*:*_223943233376_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,,,,Done,17/Jul/25 2:38 PM
+Validate the test plan can started properly.,ABTS-5034,15652,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,03/May/18 3:30 PM,24/Sep/25 5:21 PM,24/Sep/25 5:20 PM,22/Sep/25 4:35 PM,,5.5.2,,App Server Zone Controller,,,0,106-MVCM,"The following main components are tested:
+
+AbtsZCBean
+TPStartRun()
+StartRunReply()
+ZCQueueManager
+ZCProcessMonitorZCSlot
+ZCSlotStatus
+MultiZCStatus
+Status
+
+Assume that the system is already initialized properly.",,Aavan Mehernosh Vadiwala,Hien Thanh Ho,Michael Vong,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,5ac7ec1b1b5dd37ea53a1405,60cfbfe3dae5670068cd8cb9,,;24/Sep/25 5:21 PM;6f62a154-8f1b-4884-83a5-c9be189da512;28800,,,0,28800,,,0,28800,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@728b702,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,472,,,,,,,,,,,,,,,,,,,,,,,,,,0|100y0g:,,,,Not Required,,,,,,,,,,,,,,,FOX-4,,,,,,,,,,,,,,,,,,,2025-06-18 21:47:42.495,1_*:*_1_*:*_226889905997_*|*_3_*:*_1_*:*_511782845_*|*_5_*:*_1_*:*_0,18/Jun/25 2:47 PM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;Which test plan should I use to determine that those components are working ?,02/Jul/25 12:11 PM;5ac7ec1b1b5dd37ea53a1405;[~accountid:712020:3a7bafd8-4491-445b-b0ce-b630cb251bde] You can try any testplan that passes dryrun or currently exists in /home/abts/ABTS_BASE/TP. Assign the testplan and startrun.,03/Jul/25 10:33 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;[~accountid:5ac7ec1b1b5dd37ea53a1405] Are the testplans in /home/abts/ABTS_BASE/TP are already converted to binary ?,,,,,,,,,,,,,,,,,,,,,,,Done,17/Jul/25 2:38 PM
+Verify the Slot Diagnostics works properly.,ABTS-4765,15316,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,03/Oct/17 10:09 AM,24/Sep/25 2:39 PM,24/Sep/25 5:04 PM,23/Sep/25 6:13 PM,,,,Abts Report,TP Exec,,0,103-WLBI_small_projects,"Check to ensure that the Slot Diagnostics works properly.  
+
+The following conditions are required:
+
+The Slot Diagnostic testplan {{FOXXP_256DPS}}should be properly compiled from 
+
+
+
+
+
+ and installed in the /home/abts/ABTS_BASE/TPDiag/{{DIAG_256DPS/}} directory.
+
+Make sure that the {{cm_matrix_for_auto_diag.csv }}exists - Bin definition file for Slot Diagnostic program.
+",,Michael Vong,,,,60cfbfe3dae5670068cd8cb9,,,,Diagnostic test finished successfully and a Diag report is regenerated ( 113910 Nov 28 15:28 diag_2_2.txt).;28/Nov/17 3:30 PM;ug:24c6ff29-f4ff-4336-8c87-692ea6734224;2700,,3600,900,2700,75%,3600,900,2700,Internal,,,,,,,ABTS-7232,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@25f9afae,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,62,,,,,,,,,,,,,,,,,,,,,,,,,,0|100wbc:,,,,Not Required,,,,,,,,,,,,,,,ABTS-L,ABTS-P,,,,,,,,,,,,,,,,,,,1_*:*_1_*:*_794863192_*|*_3_*:*_1_*:*_244234319935_*|*_5_*:*_1_*:*_0,,,,,,,,,,,,,,,,,,,,,,,20199,ABTS-7038,Minor Enhancements & Bug Fixes in v5.5.2,Done,09/Jul/25 9:49 AM
+"On launching OPI, Main screen should come along with login screen.",ABTS-4714,15301,Test,Resolved,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,Done,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Michael Vong,60cfbfe3dae5670068cd8cb9,Michael Vong,60cfbfe3dae5670068cd8cb9,29/Sep/17 10:32 AM,24/Sep/25 2:54 PM,24/Sep/25 5:20 PM,22/Sep/25 4:35 PM,,5.5.2,,OPI,,,0,106-MVCM,Confirm that the launching OPI should also pops up login window on the main screen.,,Aavan Mehernosh Vadiwala,Michael Vong,,,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,60cfbfe3dae5670068cd8cb9,,,The Main screen with login window pops up after OPI launched.;04/Dec/17 3:38 PM;ug:24c6ff29-f4ff-4336-8c87-692ea6734224;300,,300,,300,100%,300,,300,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6e9cefa6,,,,,,,,,,,,,,,,,,,,{},,,,,,,,Former Testlink TC#,1,,,,,,,,,,,,,,,,,,,,,,,,,,0|100w00:,,,,Not Required,,,,,,,,,,,,,,,ABTS-L,ABTS-P,FOX-XP,,,,,,,,,,,,,,,,,2025-06-18 17:40:58.411,1_*:*_1_*:*_1135524714_*|*_3_*:*_1_*:*_242426569267_*|*_5_*:*_1_*:*_0,"18/Jun/25 10:40 AM;712020:3a7bafd8-4491-445b-b0ce-b630cb251bde;Launching OPI pops up main screen, and signs you in as abts2 as a default. To change the login, click login on the main screen, click logout, then sign in with your desired login, and click ‘ok’. ",,,,,,,,,,,,,,,,,,,,,,20199,ABTS-7038,Minor Enhancements & Bug Fixes in v5.5.2,Done,18/Jun/25 10:41 AM
+PollingMaskMap should not be created if polling feature is not used,ABTS-4099,14643,Bug,Open,ABTS,ABTS Software,software,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,FOX-P project,,1,,Aavan Mehernosh Vadiwala,712020:3a7bafd8-4491-445b-b0ce-b630cb251bde,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,Hien Thanh Ho,5ac7ec1b1b5dd37ea53a1405,11/Feb/17 4:45 PM,28/Sep/25 11:29 AM,28/Sep/25 11:29 AM,,4.0.2,5.5.3,,TP Exec,,,0,102-WLBI_SW_Support,"To speed up the dry-run, do not create the PollingMaskMap if Polling feature is not used",,Hien Thanh Ho,Larry Kells,,,5ac7ec1b1b5dd37ea53a1405,5f59551a7187b8006f01d6e3,,,,,28800,28800,,0%,28800,28800,,Internal,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@3384c15c,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|100rqw:,,,,Not Required,,,,,,,,,,,,,,,FOX-4,FOX-XP,,,,,,Required,Required,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,

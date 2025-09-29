@@ -48,7 +48,7 @@ def upload_file():
         print("Data grouped successfully")
 
         # Convert time spent from seconds to hours and round up to the nearest hour
-        grouped_data['Time Spent'] = (grouped_data['Time Spent'] / 360).apply(math.ceil)
+        grouped_data['Time Spent'] = (grouped_data['Time Spent'] / 3600).apply(math.ceil)
         print("Time converted to Hours (rounded up to the nearest hour)")
 
         # Prepare data for the bar graph
