@@ -20,12 +20,25 @@
 
 <canvas id="barChart" width="400" height="200"></canvas>
 
+<table id="dataTable" border="1">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Time Spent (Hours)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Data will be inserted here -->
+  </tbody>
+</table>
+
 <script>
   const form = document.getElementById('uploadForm');
   const ctx = document.getElementById('barChart').getContext('2d');
   const errorMessage = document.getElementById('errorMessage');
   const loadingMessage = document.getElementById('loadingMessage');
   const successMessage = document.getElementById('successMessage');
+  const dataTable = document.getElementById('dataTable').getElementsByTagName('tbody')[0]; // Reference to the table body
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
@@ -58,17 +71,37 @@
     formData.append('myfile', file);
 
     try {
-      const response = await fetch('/upload', {
+      // const response = await fetch('/upload', {
+      //   method: 'POST',
+      //   body: formData
+      // });
+
+      const response = await fetch('http://localhost:5000/upload', {
         method: 'POST',
         body: formData
-      });
+      });   
 
       const result = await response.json();
       loadingMessage.style.display = 'none';
 
       if (response.ok) {
-        successMessage.textContent = 'Graph generated successfully!';
+        successMessage.textContent = 'Graph and table generated successfully!';
         const data = result.data;
+
+        // Clear any existing rows in the table
+        dataTable.innerHTML = '';
+
+        // Populate the table with data
+        data.labels.forEach((label, index) => {
+          const row = dataTable.insertRow();
+          const projectCell = row.insertCell(0);
+          const timeCell = row.insertCell(1);
+
+          projectCell.textContent = label;
+          timeCell.textContent = data.values[index];
+        });
+
+        // Generate the bar graph
         new Chart(ctx, {
           type: 'bar',
           data: {

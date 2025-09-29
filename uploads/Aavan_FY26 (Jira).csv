@@ -1,0 +1,40 @@
+Issue key,Issue id,Summary,Updated,Status,Time Spent,Labels,Σ Time Spent
+ABTS-7129,21223,Slot Showed Loaded Without SN# After Power On SW 5.5.1,28/Sep/25 11:28 AM,Open,,102-WLBI_SW_Support,
+ABTS-4099,14643,PollingMaskMap should not be created if polling feature is not used,28/Sep/25 11:29 AM,Open,,102-WLBI_SW_Support,
+ABTS-6553,18415,Auto-assign setup file reading per step? ,28/Sep/25 11:29 AM,In Progress,,102-WLBI_SW_Support,
+ABTS-5552,16127,FOX CP: Verify that testplan execution based on chuck temperature is working and temperature is logging: Testing,28/Sep/25 11:29 AM,Resolved,28800,102-WLBI_SW_Support,28800
+ABTS-6946,19854,FC_Mode:  FC_NONE still collect the data (CAR-377),29/Sep/25 3:52 PM,Resolved,144000,201-PPBI_HW_Sustaining,144000
+ABTS-6945,19853,settime function does not work as expected (CAR 376),28/Sep/25 11:28 AM,Resolved,432000,102-WLBI_SW_Support,432000
+ABTS-7377,24357,Settime function does not work as expected: Testing,28/Sep/25 11:25 AM,Resolved,10800,202-PPBI_SW_Sustaining_Enhancements,10800
+ABTS-7340,24105,abts_prober application crashed when changing the prober type in the sys config file to TSK,29/Sep/25 3:52 PM,Resolved,86400,201-PPBI_HW_Sustaining,86400
+ABTS-6723,19036,SC Oven Over-Temperature Error needs more description,29/Sep/25 3:55 PM,Resolved,115200,001-Vacation_and_PTO,115200
+ABTS-7267,23958,Get Prober Type from SysConfig,29/Sep/25 3:55 PM,Resolved,201600,002-Holiday,201600
+ABTS-7254,23859,Unable to create EOR due to Segmentation fault,26/Sep/25 10:32 AM,Resolved,345600,107-ISCB,345600
+ABTS-7196,23207,setVIDataCapture() command and ISCB functions should not be present at the same time on a step,26/Sep/25 10:26 AM,Resolved,86400,107-ISCB,86400
+ABTS-7181,23010,Add new tester function enableTimingSetRam() to enable the timing set RAM feature,26/Sep/25 10:26 AM,Resolved,64800,107-ISCB,64800
+ABTS-7164,22841,Verify that the new version of Gitkraken is working,26/Sep/25 10:25 AM,Resolved,600,107-ISCB,600
+ABTS-7159,22821,Modify abts_purge_data to remove old .stdf files from ABTS_REPORT/STDF folder,26/Sep/25 10:25 AM,Resolved,86400,107-ISCB,86400
+ABTS-7156,22777,Update GitKraken to v11.1.0,26/Sep/25 10:25 AM,Resolved,600,204-Avalon,600
+ABTS-7202,23288,Add the ABTS_REPORT/STDF directory to be cleaned similar to ABTS_REPORT/RunReport: Testing,26/Sep/25 10:24 AM,Resolved,2400,204-Avalon,2400
+ABTS-7197,23209,setVIDataCapture() command and ISCB functions should not be present at the same time on a step: Testing,26/Sep/25 10:24 AM,Resolved,1200,203-PPBI_Small_Projects,1200
+ABTS-7195,23204,enableTimingSetRam(): Testing,26/Sep/25 10:23 AM,Resolved,1800,203-PPBI_Small_Projects,1800
+ABTS-7187,23022,Add new parameter UWMFilename to setccfname(...) to set the UWM filename to use: Testing,26/Sep/25 10:21 AM,Resolved,1200,202-PPBI_SW_Sustaining_Enhancements,1200
+ABTS-7172,22912,Verify new tester function setGroupIndex(),26/Sep/25 10:21 AM,Resolved,2700,202-PPBI_SW_Sustaining_Enhancements,2700
+ABTS-6256,17833,Verify that the copyright year and release version in the about box of the OPI in FOX-CP: Testing,26/Sep/25 10:20 AM,Resolved,1200,201-PPBI_Sustaining,1200
+ABTS-5060,15618,To validate the canceled slot can be restarted with the same test plan.,26/Sep/25 10:20 AM,Resolved,2700,201-PPBI_Sustaining,2700
+ABTS-5059,15616,To verify one slot is canceled while the other slot can continue to run. ,26/Sep/25 10:19 AM,Resolved,1800,109-Malibu,1800
+ABTS-5058,15613,To verify the multiple logical zones can run different testplans at the same time.,26/Sep/25 10:18 AM,Resolved,1800,109-Malibu,1800
+ABTS-5056,15607,To validate the test plan can be completed properly.,24/Sep/25 5:26 PM,Resolved,3600,108-Sierra_Aligner,3600
+ABTS-5055,15605,To verify the test step can be cancelled properly. ,24/Sep/25 5:26 PM,Resolved,3600,108-Sierra_Aligner,3600
+ABTS-5054,15602,To validate the test step can be stopped properly. ,24/Sep/25 5:26 PM,Resolved,7200,107-ISCB,7200
+ABTS-5053,15599,To validate the test step can be started properly. ,24/Sep/25 5:23 PM,Resolved,14400,107-ISCB,14400
+ABTS-5034,15652,Validate the test plan can started properly.,24/Sep/25 5:21 PM,Resolved,28800,106-MVCM,28800
+ABTS-4714,15301,"On launching OPI, Main screen should come along with login screen.",24/Sep/25 2:54 PM,Resolved,300,106-MVCM,300
+ABTS-7363,24267,Update UCCM & UCNCM Min/Max Settings in the CSV files and in Confluence Page,24/Sep/25 5:20 PM,Resolved,7200,105-ITC,7200
+ABTS-7157,22819,Review Accretech manuals,24/Sep/25 5:10 PM,Resolved,57600,105-ITC,57600
+ABTS-7384,24403,setVIDataCapture does repeat with the settime function ,24/Sep/25 5:09 PM,Resolved,1800,104-Niobium,1800
+ABTS-7383,24385,Test solution for FC_NONE,24/Sep/25 5:09 PM,Resolved,1800,104-Niobium,1800
+ABTS-7333,24076,Get Prober Type from SysConfig,24/Sep/25 5:08 PM,Resolved,7200,101-WLBI_HW_Sustaining,7200
+ABTS-7236,23699,FOX TP_Arbiter Timeout when Starting a Run (CAR-443),24/Sep/25 5:04 PM,Resolved,1800,101-WLBI_HW_Sustaining,1800
+ABTS-4765,15316,Verify the Slot Diagnostics works properly.,24/Sep/25 2:39 PM,Resolved,2700,103-WLBI_small_projects,2700
+ABTS-7183,23013,Add new parameter UWMFilename to setccfname(...) to set the UWM filename to use,24/Sep/25 5:03 PM,Closed,57600,103-WLBI_small_projects,57600
