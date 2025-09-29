@@ -1,9 +1,9 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS  # Import Flask-CORS
 import pandas as pd
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 CORS(app)  # Enable CORS for all routes
 
 # Directory to save uploaded files (optional, for debugging)
@@ -11,8 +11,9 @@ UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 @app.route('/')
-def home():
-    return "Welcome to the CSV Bar Graph API! Use the /upload endpoint to upload files."
+def serve_frontend():
+    # Serve the main HTML file
+    return send_from_directory(app.static_folder, 'index_frontend.html')
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
